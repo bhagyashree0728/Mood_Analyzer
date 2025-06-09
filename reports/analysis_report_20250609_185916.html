@@ -1,0 +1,136 @@
+
+        <html>
+        <head>
+            <title>Mood Detection Analysis Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .section { margin: 20px 0; padding: 20px; background-color: #f5f5f5; border-radius: 5px; }
+                .visualization { margin: 20px 0; text-align: center; }
+                table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                .positive { color: green; }
+                .negative { color: red; }
+            </style>
+        </head>
+        <body>
+            <h1>Mood Detection Analysis Report</h1>
+            <p>Generated on: 2025-06-09 18:59:16</p>
+            
+            <div class="section">
+                <h2>Summary Statistics</h2>
+                <p>Total Posts Analyzed: 3</p>
+                <p>Average Post Length: 4.7 characters</p>
+                <p>Average Confidence: 1.00</p>
+            </div>
+            
+            <div class="section">
+                <h2>Sentiment Analysis</h2>
+                <div class="visualization">
+                    <img src="sentiment_distribution.png" alt="Sentiment Distribution">
+                </div>
+                <table>
+                    <tr>
+                        <th>Sentiment</th>
+                        <th>Count</th>
+                        <th>Percentage</th>
+                    </tr>
+                    
+            <tr>
+                <td class="negative">NEGATIVE</td>
+                <td>2</td>
+                <td>66.7%</td>
+            </tr>
+            
+            <tr>
+                <td class="positive">POSITIVE</td>
+                <td>1</td>
+                <td>33.3%</td>
+            </tr>
+            
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>Source Analysis</h2>
+                <div class="visualization">
+                    <img src="source_distribution.png" alt="Source Distribution">
+                </div>
+                <table>
+                    <tr>
+                        <th>Source</th>
+                        <th>Count</th>
+                        <th>Percentage</th>
+                    </tr>
+                    
+            <tr>
+                <td>Instagram</td>
+                <td>1</td>
+                <td>33.3%</td>
+            </tr>
+            
+            <tr>
+                <td>Twitter</td>
+                <td>1</td>
+                <td>33.3%</td>
+            </tr>
+            
+            <tr>
+                <td>Facebook</td>
+                <td>1</td>
+                <td>33.3%</td>
+            </tr>
+            
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>Post Length Analysis</h2>
+                <div class="visualization">
+                    <img src="post_length_distribution.png" alt="Post Length Distribution">
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Confidence Analysis</h2>
+                <div class="visualization">
+                    <img src="confidence_analysis.png" alt="Confidence Analysis">
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Sample Posts</h2>
+                <table>
+                    <tr>
+                        <th>Text</th>
+                        <th>Source</th>
+                        <th>Sentiment</th>
+                        <th>Confidence</th>
+                    </tr>
+                    
+            <tr>
+                <td>happy</td>
+                <td>Instagram</td>
+                <td class="positive">POSITIVE</td>
+                <td>1.00</td>
+            </tr>
+            
+            <tr>
+                <td>saddd</td>
+                <td>Twitter</td>
+                <td class="negative">NEGATIVE</td>
+                <td>1.00</td>
+            </tr>
+            
+            <tr>
+                <td>low </td>
+                <td>Facebook</td>
+                <td class="negative">NEGATIVE</td>
+                <td>1.00</td>
+            </tr>
+            
+                </table>
+            </div>
+        </body>
+        </html>
+        

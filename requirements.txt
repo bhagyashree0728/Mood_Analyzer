@@ -1,0 +1,6 @@
+transformers>=4.36.2
+torch>=2.0.0
+pandas>=2.1.4
+matplotlib>=3.8.2
+seaborn>=0.13.0
+fpdf>=1.7.2
