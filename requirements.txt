@@ -1,6 +1,6 @@
 streamlit==1.46.0
 transformers==4.44.2
-tokenizers==0.19.1
+tokenizers==0.19.1 --only-binary :all:
 torch==2.7.1
 pandas==2.3.0
 matplotlib==3.9.0
