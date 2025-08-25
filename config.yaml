@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    testuser:
+      email: testuser@example.com
+      name: Test User
+      password: 'pbkdf2:sha256:260000$w1k...$...'  # Replace with your hashed password
+
+cookie:
+  expiry_days: 1
+  key: some_signature_key
+  name: some_cookie_name
+
+preauthorized:
+  emails:
+    - testuser@example.com
