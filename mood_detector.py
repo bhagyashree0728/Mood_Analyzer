@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from transformers import pipeline
+from transformers.pipelines import pipeline
 from datetime import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
